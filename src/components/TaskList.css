@@ -1,0 +1,18 @@
+/* TaskList.css */
+
+.task-list {
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .task-list li span {
+    flex: 1;
+  }
+  
+  .task-list li button {
+    margin-left: 0.5rem;
+  }
+  

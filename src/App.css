@@ -1,0 +1,129 @@
+/* App.css */
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Fallback color */
+  background-image: url('C:\\Users\\dell\\Downloads\\pexels-andreimike-1271619.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%; /* Adjust width as needed */
+  max-width: 800px; /* Increase max-width for larger box */
+  padding: 2rem; /* Increase padding for more space inside the box */
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+li button.edit-button {
+  background-color: #ffc107;
+  color: #333;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
+
+li button.edit-button:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 95%; /* Adjust width for smaller screens */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  input[type="text"] {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  li {
+    padding: 0.75rem;
+  }
+}
