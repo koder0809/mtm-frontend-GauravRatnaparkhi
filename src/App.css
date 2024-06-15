@@ -4,11 +4,7 @@ body {
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0; /* Fallback color */
-  background-image: url('C:\\Users\\dell\\Downloads\\pexels-andreimike-1271619.jpg'); /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #e0f7fa; /* Light cyan background color */
   height: 100vh; /* Set full viewport height */
   display: flex;
   justify-content: center;
@@ -23,7 +19,7 @@ body {
   width: 90%; /* Adjust width as needed */
   max-width: 800px; /* Increase max-width for larger box */
   padding: 2rem; /* Increase padding for more space inside the box */
-  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
